@@ -149,6 +149,12 @@
   </style>
 </head>
 <body>
+  <script>
+  const lang = navigator.language || navigator.userLanguage;
+  if (lang.startsWith('hi')) {
+    window.location.href = '/hi/index.html';
+  }
+  </script>
   <header>
     <h1>The Hidden Dangers of Gambling</h1>
     <nav>
